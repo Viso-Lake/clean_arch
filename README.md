@@ -30,6 +30,14 @@ git create ВАШ_НИКНЕЙМ/example_service
 git remote add upstream https://github.com/НАЗВАНИЕ_ПРОЕКТ/example_service.git
 ```
 
+# ИЛИ
+
+1. Нажмите на `Use this template`,
+2. Выберите `Create a new repository`
+3. Укажите название
+4. Создайте новый репозиторий
+5. Следуйте инструкции
+
 ## Структура проекта:
 
 - **cmd**: Содержит точки входа для приложения.
@@ -107,6 +115,7 @@ git remote add upstream https://github.com/НАЗВАНИЕ_ПРОЕКТ/example
 - **scripts**: Скрипты для автоматизации задач.
 
 - **docs**: Документация проекта.
+
   - api.swagger.yml
 
 - **.gitignore**: Файл для игнорирования файлов и папок при использовании системы контроля версий Git.
