@@ -1,0 +1,97 @@
+# Игнорирование временных файлов
+*.swp
+*.swo
+*.swn
+*.swm
+*.bak
+*.tmp
+*.~*
+
+# Игнорирование файлов конфигурации IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+
+# Игнорирование файлов логов и отчетов
+*.log
+*.log.*
+*.tsv
+*.tlog
+*.trace
+logs/
+log.txt
+log/
+tmp/
+
+# Игнорирование файлов сборки и зависимостей
+bin/
+obj/
+*.o
+*.a
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.ncb
+*.suo
+*.pdb
+*.idb
+*.lib
+*.exp
+*.sbr
+*.class
+*.jar
+*.war
+*.ear
+*.hprof
+target/
+node_modules/
+bower_components/
+
+# Игнорирование файлов конфигурации проекта
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Игнорирование временных кэш-файлов
+*.cache
+*.log
+*.db
+*.sqlite
+*.db-shm
+*.db-wal
+
+# Игнорирование файлов для тестирования и покрытия кода
+*.rbc
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.coverage
+.coverage.*
+*.cover.*
+*.gem
+*.rake
+*.rbc
+*.bundle
+/vendor/
+
+# Игнорирование файлов с настройками пользователя
+*.sublime-*
+*.komod*
+*.idea
+*.kate-config
+*.settings
+*.tmproj
+*.npmrc
+*.yarnrc
+yarn.lock
+.editorconfig
+*.sass-cache
+config.codekit
+Thumbs.db
+Desktop.ini
